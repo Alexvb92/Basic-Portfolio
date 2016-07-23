@@ -57,12 +57,11 @@ h1 {
 	color: #4aaaa5;
 	font-family: serif;
 	font-size: 32px;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 	font-weight: bold;
 }
 
-<
 hr {
 	color: #777777;
 }
@@ -95,7 +94,7 @@ section {
  	background-color: #dddddd;
  	width: 100%;
  	height: 4px;
- 	margin-bottom: 15px;
+ 	margin-bottom: 20px;
 
 	}
 
@@ -126,6 +125,17 @@ section {
 	height: 70px;
 	}
 
+.image5{
+float:left;
+}
+
+.image6{
+float: left;
+margin-left: 60px;
+margin-bottom: 10px;
+}
+
+
 .your-name {
 	padding:  10px;
 	background-color: #4aaaa5;
@@ -138,7 +148,7 @@ section {
 	position: absolute;
 	top: 0px;
 	margin-left: 5%;
-	z-index: 2;
+	z-index: 6;
 	font-family: serif;
 	text-align: center;
 	padding-top: 20px;
@@ -190,10 +200,11 @@ section {
 	color: #777777;
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
-	padding-left: 15px;
+	padding-left: 30px;
 	font-family: arial;
-	padding-right: 15px;
+	padding-right: 30px;
 	line-height: 2em;
+	height: 100%;
 	
 }
 
@@ -201,12 +212,161 @@ footer {
   background: #666666;
   padding: 20px;
   clear: both;
-  position: absolute;
-  margin-top: 960px;
+  position: fixed;
   width: 100%;
   left: 0px;
   bottom: 0px;
   border-top: 5px solid #4aaaa5;
   color: #777777;
   text-align: center;
+  font-size: 12px;
+  height: 70px;
+}
+
+.paragraph2 {
+
+	width: 650px;
+	position: absolute;
+	top: 100px;
+	margin-right: 60%;
+	margin-left: 5%;
+	clear: all;
+	color: #777777;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding-left: 30px;
+	font-family: arial;
+	padding-right: 30px;
+	font-size:16px;
+
+	
+}
+.list1 {
+top: 0px;
+width:300px;
+margin-left: 70%;
+background-color:#ffffff;
+height: 30px;
+z-index: 3;
+position: absolute;
+text-align: center;
+color: #777777;
+margin-top: 25px;
+font-size: 16px;
+}
+
+
+.inputs1 {
+	width: 100%;
+	height: 30px;
+	
+}
+.inputs2 {
+	width: 100%;
+	height: 30px;
+	
+}
+
+.inputs3 {
+	width: 100%;
+	height: 250px;
+	
+}
+
+.submit1 {
+	color: white;
+	background-color: #4aaaa5;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+input {
+	padding-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: #cccccc;
+}
+
+.hangman{
+
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 260px;
+	height: 70px;
+	margin-top: 110px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding-top: 20px;
+	font-family: serif;
+
+}
+
+.rpg{
+
+
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 260px;
+	height: 70px;
+	margin-top: 110px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding-top: 20px;
+	margin-left: 320px;
+	font-family: serif;
+
+}
+
+
+.trivia{
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 260px;
+	height: 70px;
+	margin-top: 325px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding-top: 20px;
+	font-family: serif;
+
+}
+
+.rutgers{
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 260px;
+	height: 70px;
+	margin-top: 325px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding-top: 20px;
+	margin-left: 320px;
+	font-family: serif;
+
+}
+
+.rps{
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 260px;
+	height: 70px;
+	margin-top: 540px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding-top: 20px;
+	font-family: serif;
+
 }

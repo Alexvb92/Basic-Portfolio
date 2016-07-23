@@ -210,3 +210,18 @@ footer {
   color: #777777;
   text-align: center;
 }
+
+.list1 {
+padding:  20px;
+	background-color: #777777;
+	color: #777777;
+	float: left;
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	border-bottom:  800px solid #dddddd;
+	z-index: 3;
+	}
